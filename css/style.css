@@ -1,0 +1,89 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+  }
+  
+  h1, h2, h4 {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #007b5e;
+  }
+  
+  .nav-link {
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  .navbar-brand {
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Adicione isso para permitir que os z-index funcionem corretamente */
+    z-index: 1; /* Ajuste se necessário, mas deve ser maior que o da sobreposição */
+    color: rgb(0, 0, 0);
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Sobreposição escura */
+    z-index: 0; /* Coloca a sobreposição abaixo do conteúdo */
+}
+
+  .hero h1 {
+    color: #fff; /* Cor do texto do título */
+    font-size: 3em; /* Tamanho da fonte */
+    z-index: 2; /* Coloca o título acima da sobreposição */
+  }
+  
+  .hero p {
+    color: #fff; /* Cor do texto do parágrafo */
+    z-index: 2; /* Colocar o parágrafo acima da sobreposição */
+    font-size: 1.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #007b5e; /* Cor do botão */
+    border-color: #007b5e; /* Cor da borda do botão */
+    position: relative; /* Isso pode ajudar se você precisar aumentar o z-index do botão */
+    z-index: 2; /* Certifique-se de que o botão esteja acima da sobreposição */
+  }
+
+  .btn-primary:hover {
+    background-color: #218838; /* Cor do botão ao passar o mouse */
+    border-color: #1e7e34; /* Cor da borda do botão ao passar o mouse */
+}
+  
+  .about, .services, .testimonials, .blog {
+    padding: 60px 0;
+  }
+
+  .blockquote-footer {
+    color: white;
+  }
+  
+  footer, footer a{
+    background-color: #007b5e;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .icon-service {
+    font-size: 4rem;
+    color: #007b5e;
+  }  

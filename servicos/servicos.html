@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - Cooperativa VIVA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- Menu de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">Cooperativa VIVA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#catalog">Catálogo de Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="#service-request">Solicitação de Serviços</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Catálogo de Serviços -->
+<section id="catalog" class="catalog py-5">
+    <div class="container">
+        <h2 class="text-center">Catálogo de Serviços</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Consultoria</h4>
+                <p>Oferecemos consultoria especializada em diversas áreas.</p>
+                <a href="consultoria.html" class="btn btn-primary">Saiba Mais</a>
+            </div>
+            <div class="col-md-4">
+                <h4>Apoio Financeiro</h4>
+                <p>Ajudamos a planejar seu futuro com segurança.</p>
+                <a href="apoio-financeiro.html" class="btn btn-primary">Saiba Mais</a>
+            </div>
+            <div class="col-md-4">
+                <h4>Educação e Treinamento</h4>
+                <p>Capacitamos nossos membros com cursos e treinamentos.</p>
+                <a href="educacao-treinamento.html" class="btn btn-primary">Saiba Mais</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Solicitação de Serviços -->
+<section id="service-request" class="service-request py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Solicitação de Serviços</h2>
+        <p>Para solicitar nossos serviços, preencha o formulário abaixo ou clique nos links dos serviços acima:</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Serviço:</label>
+                <select class="form-control" id="service">
+                    <option>Consultoria</option>
+                    <option>Apoio Financeiro</option>
+                    <option>Educação e Treinamento</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Solicitar Serviço</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer py-4">
+    <div class="container text-center">
+        <p>&copy; 2024 Cooperativa VIVA. Todos os direitos reservados.</p>
+        <p><a href="mailto:contato@cooperativaviva.com">contato@cooperativaviva.com</a> | (00) 1234-5678</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

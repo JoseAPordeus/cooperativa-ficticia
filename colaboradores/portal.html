@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Colaborador - Cooperativa VIVA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- Menu de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">Cooperativa VIVA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/servicos/servicos.html">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contato.html">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="/colaboradores/colaboradores.html">Colaboradores</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Portal do Colaborador Section -->
+<section class="portal py-5">
+    <div class="container">
+        <h2 class="text-center">Portal do Colaborador</h2>
+        <p>Bem-vindo à área exclusiva para colaboradores da Cooperativa VIVA. Aqui você pode acessar documentos, relatórios e recursos importantes.</p>
+
+        <h4>Documentos e Relatórios:</h4>
+        <ul>
+            <li><a href="docs/relatorio-2024.pdf" target="_blank">Relatório Anual 2024</a></li>
+            <li><a href="docs/planejamento-2025.pdf" target="_blank">Planejamento Estratégico 2025</a></li>
+            <li><a href="docs/manual-colaborador.pdf" target="_blank">Manual do Colaborador</a></li>
+        </ul>
+
+        <h4>Recursos Exclusivos:</h4>
+        <ul>
+            <li><a href="cursos.html">Cursos Disponíveis</a></li>
+            <li><a href="forum.html">Fórum de Colaboradores</a></li>
+            <li><a href="mentoria.html">Programa de Mentoria</a></li>
+        </ul>
+
+        <h4>Acesso ao Portal:</h4>
+        <p>Para acessar informações adicionais, faça login abaixo:</p>
+        <form action="login.html" method="POST">
+            <div class="form-group">
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer py-4">
+    <div class="container text-center">
+        <p>&copy; 2024 Cooperativa VIVA. Todos os direitos reservados.</p>
+        <p><a href="mailto:contato@cooperativaviva.com">contato@cooperativaviva.com</a> | (00) 1234-5678</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
