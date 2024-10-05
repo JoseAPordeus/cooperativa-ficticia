@@ -11,53 +11,109 @@
 
 <!-- Menu de Navegação -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-  <a class="navbar-brand" href="index.html">Cooperativa VIVA</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="/sobre.html">Sobre Nós</a></li>
-      <li class="nav-item"><a class="nav-link" href="/servicos.html">Serviços</a></li>
-      <li class="nav-item"><a class="nav-link" href="/colaboradores/colaboradores.html">Colaboradores</a></li>
-      <li class="nav-item"><a class="nav-link" href="/parcerias/parcerias.html">Parcerias</a></li>
-      <li class="nav-item"><a class="nav-link" href="/blog/blog.html">Notícias</a></li>
-      <li class="nav-item"><a class="nav-link" href="/contato.html">Contato</a></li>
-    </ul>
-  </div>
+    <a class="navbar-brand" href="/index.html">Cooperativa VIVA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/servicos.html">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="/parcerias/parcerias.html">Parcerias</a></li>
+            <li class="nav-item"><a class="nav-link" href="/blog/blog.html">Notícias</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contato.html">Contato</a></li>
+        </ul>
+    </div>
 </nav>
 
-<!-- Eventos -->
-<section class="events py-5">
-  <div class="container">
-    <h2 class="text-center">Próximos Eventos</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <h4>Workshop de Capacitação</h4>
-        <p>Data: 15 de Outubro de 2024</p>
-        <p>Local: Sede da Cooperativa</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Feira de Parcerias</h4>
-        <p>Data: 22 de Novembro de 2024</p>
-        <p>Local: Centro de Convenções</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Evento Anual de Membros</h4>
-        <p>Data: 05 de Dezembro de 2024</p>
-        <p>Local: Auditório Principal</p>
-      </div>
+<!-- Calendário de Eventos -->
+<section class="calendario-eventos py-5">
+    <div class="container">
+        <h2 class="text-center">Calendário de Eventos</h2>
+        <div class="row">
+            <!-- Evento 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Assembleia Geral</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Data:</strong> 15 de Outubro de 2024</p>
+                        <p><strong>Local:</strong> Sede da Cooperativa</p>
+                        <p><strong>Descrição:</strong> Assembleia para discussão de pautas relevantes.</p>
+                        <a href="evento1.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Evento 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Workshop de Sustentabilidade</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Data:</strong> 22 de Outubro de 2024</p>
+                        <p><strong>Local:</strong> Centro de Eventos</p>
+                        <p><strong>Descrição:</strong> Aprenda práticas sustentáveis com especialistas.</p>
+                        <a href="evento2.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Evento 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Palestra sobre Cooperativismo</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Data:</strong> 29 de Outubro de 2024</p>
+                        <p><strong>Local:</strong> Auditório Municipal</p>
+                        <p><strong>Descrição:</strong> Palestra sobre a importância do cooperativismo na sociedade.</p>
+                        <a href="evento3.html" class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
+
+<!-- Detalhes dos Eventos (exemplo) -->
+<section class="detalhes-evento py-5">
+    <div class="container">
+        <h2>Assembleia Geral</h2>
+        <p><strong>Data:</strong> 15 de Outubro de 2024</p>
+        <p><strong>Local:</strong> Sede da Cooperativa</p>
+        <p><strong>Descrição:</strong> Assembleia para discussão de pautas relevantes. Todos os membros estão convidados a participar e contribuir.</p>
+        <a href="#" class="btn btn-success">Inscrever-se</a>
+    </div>
+</section>
+
+<section class="detalhes-evento py-5">
+  <div class="container">
+      <h2>Workshop de Sustentabilidade</h2>
+      <p><strong>Data:</strong> 22 de Outubro de 2024</p>
+      <p><strong>Local:</strong> Centro de Eventos</p>
+      <p><strong>Descrição:</strong> Aprenda práticas sustentáveis com especialistas.</p>
+      <a href="#" class="btn btn-success">Inscrever-se</a>
+  </div>
+</section>
+
+<section class="detalhes-evento py-5">
+  <div class="container">
+      <h2>Palestra sobre Cooperativismo</h2>
+      <p><strong>Data:</strong> 29 de Outubro de 2024</p>
+      <p><strong>Local:</strong> Auditório Municipal</p>
+      <p><strong>Descrição:</strong> Palestra sobre a importância do cooperativismo na sociedade.</p>
+      <a href="#" class="btn btn-success">Inscrever-se</a>
   </div>
 </section>
 
 <!-- Footer -->
 <footer class="footer py-4">
-  <div class="container text-center">
-    <p>&copy; 2024 Cooperativa VIVA. Todos os direitos reservados.</p>
-    <p><a href="mailto:contato@cooperativaviva.com">contato@cooperativaviva.com</a> | (00) 1234-5678</p>
-  </div>
+    <div class="container text-center">
+        <p>&copy; 2024 Cooperativa VIVA. Todos os direitos reservados.</p>
+        <p><a href="mailto:contato@cooperativaviva.com">contato@cooperativaviva.com</a> | (00) 1234-5678</p>
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -11,50 +11,90 @@
 
 <!-- Menu de Navegação -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-  <a class="navbar-brand" href="index.html">Cooperativa VIVA</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="/sobre.html">Sobre Nós</a></li>
-      <li class="nav-item"><a class="nav-link" href="/servicos.html">Serviços</a></li>
-      <li class="nav-item"><a class="nav-link" href="/colaboradores/colaboradores.html">Colaboradores</a></li>
-      <li class="nav-item"><a class="nav-link" href="/blog/blog.html">Notícias</a></li>
-      <li class="nav-item"><a class="nav-link" href="/eventos/eventos.html">Eventos</a></li>
-      <li class="nav-item"><a class="nav-link" href="/contato.html">Contato</a></li>
-    </ul>
-  </div>
+    <a class="navbar-brand" href="/index.html">Cooperativa VIVA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/servicos.html">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contato.html">Contato</a></li>
+        </ul>
+    </div>
 </nav>
 
-<!-- Parcerias -->
-<section class="partners py-5">
-  <div class="container">
-    <h2 class="text-center">Nossas Parcerias</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <h4>Parceiro 1</h4>
-        <p>Uma breve descrição da parceria e como ela beneficia nossos membros.</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Parceiro 2</h4>
-        <p>Uma breve descrição da parceria e como ela beneficia nossos membros.</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Parceiro 3</h4>
-        <p>Uma breve descrição da parceria e como ela beneficia nossos membros.</p>
-      </div>
+<!-- Parcerias Atuais -->
+<section class="parcerias-atuais py-5">
+    <div class="container">
+        <h2 class="text-center">Nossas Parcerias</h2>
+        <p class="text-center">Veja as parcerias estratégicas que fortalecem a nossa atuação e colaboram com o crescimento da nossa cooperativa.</p>
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h4>Cooperativa ABC</h4>
+                <p>Parceria para projetos de inovação e sustentabilidade.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4>Empresa XYZ</h4>
+                <p>Apoio financeiro e consultoria para membros da cooperativa.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4>Instituição 123</h4>
+                <p>Oferecendo treinamento e educação profissional.</p>
+            </div>
+        </div>
     </div>
-  </div>
+</section>
+
+<!-- Benefícios de Parcerias -->
+<section class="beneficios-parcerias py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Como a Parceria Pode Ajudar</h2>
+        <p>Fazer parceria com a Cooperativa VIVA oferece diversas vantagens. Empresas, cooperativas e instituições parceiras podem se beneficiar de:</p>
+        <ul>
+            <li>Visibilidade em nossa rede de membros e parceiros.</li>
+            <li>Participação em projetos de impacto social e ambiental.</li>
+            <li>Colaboração em iniciativas de inovação e sustentabilidade.</li>
+            <li>Fortalecimento de laços comerciais e institucionais.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Formulário de Contato para Parcerias -->
+<section class="contato-parcerias py-5">
+    <div class="container">
+        <h2 class="text-center">Entre em Contato para Parcerias</h2>
+        <p class="text-center">Se sua empresa ou instituição está interessada em fazer parte da nossa rede de parcerias, entre em contato conosco preenchendo o formulário abaixo.</p>
+
+        <form action="#" method="POST">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nome">Nome da Empresa/Instituição</label>
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email de Contato</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Descreva o interesse na parceria..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
 </section>
 
 <!-- Footer -->
 <footer class="footer py-4">
-  <div class="container text-center">
-    <p>&copy; 2024 Cooperativa VIVA. Todos os direitos reservados.</p>
-    <p><a href="mailto:contato@cooperativaviva.com">contato@cooperativaviva.com</a> | (00) 1234-5678</p>
-  </div>
+    <div class="container text-center">
+        <p>&copy; 2024 Cooperativa VIVA. Todos os direitos reservados.</p>
+        <p><a href="mailto:contato@cooperativaviva.com">contato@cooperativaviva.com</a> | (00) 1234-5678</p>
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Cooperativa VIVA</title>
+    <title>Notícias e Blog - Cooperativa VIVA</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -11,50 +11,116 @@
 
 <!-- Menu de Navegação -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-  <a class="navbar-brand" href="index.html">Cooperativa VIVA</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="/sobre.html">Sobre Nós</a></li>
-      <li class="nav-item"><a class="nav-link" href="/servicos.html">Serviços</a></li>
-      <li class="nav-item"><a class="nav-link" href="/colaboradores/colaboradores.html">Colaboradores</a></li>
-      <li class="nav-item"><a class="nav-link" href="/parcerias/parcerias.html">Parcerias</a></li>
-      <li class="nav-item"><a class="nav-link" href="/eventos/eventos.html">Eventos</a></li>
-      <li class="nav-item"><a class="nav-link" href="/contato.html">Contato</a></li>
-    </ul>
-  </div>
+    <a class="navbar-brand" href="/index.html">Cooperativa VIVA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/servicos.html">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="/parcerias/parcerias.html">Parcerias</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contato.html">Contato</a></li>
+        </ul>
+    </div>
 </nav>
 
-<!-- Blog/Notícias -->
-<section class="blog py-5">
-  <div class="container">
-    <h2 class="text-center">Notícias e Atualizações</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <h4>Última Atualização</h4>
-        <p>Nossa cooperativa firmou uma nova parceria!</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Evento de Treinamento</h4>
-        <p>Participe do nosso próximo workshop para capacitação!</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Novos Serviços</h4>
-        <p>Confira os novos serviços oferecidos aos nossos membros.</p>
-      </div>
+<!-- Lista de Postagens -->
+<section class="noticias py-5">
+    <div class="container">
+        <h2 class="text-center">Notícias e Blog</h2>
+        <p class="text-center">Fique por dentro das últimas atualizações da Cooperativa VIVA, histórias de sucesso e dicas para os membros.</p>
+
+        <div class="row">
+            <!-- Postagem 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="/img/postagem1.avif" class="card-img-top" alt="Postagem 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Como as Cooperativas Estão Impactando o Setor de Sustentabilidade</h5>
+                        <p class="card-text">Saiba mais sobre as iniciativas das cooperativas em projetos sustentáveis e como estão transformando comunidades.</p>
+                        <a href="postagem1.html" class="btn btn-primary">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Postagem 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="/img/postagem2.avif" class="card-img-top" alt="Postagem 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Histórias de Sucesso: Membros que Cresceram com a VIVA</h5>
+                        <p class="card-text">Conheça os relatos de membros que transformaram suas carreiras e negócios através da Cooperativa VIVA.</p>
+                        <a href="postagem2.html" class="btn btn-primary">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Postagem 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="/img/postagem3.avif" class="card-img-top" alt="Postagem 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Dicas para Gerenciar Suas Finanças Como Cooperado</h5>
+                        <p class="card-text">Aprenda como administrar melhor suas finanças com dicas exclusivas para membros da cooperativa.</p>
+                        <a href="postagem3.html" class="btn btn-primary">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+</section>
+
+<!-- Detalhe da Postagem (postagem1.html, postagem2.html, etc.) -->
+<section class="detalhe-postagem py-5">
+    <div class="container">
+        <h2>Como as Cooperativas Estão Impactando o Setor de Sustentabilidade</h2>
+        <p>Publicado em 05 de Outubro de 2024</p>
+        <img src="/img/postagem1-detalhe.avif" class="img-fluid mb-4" alt="Sustentabilidade e Cooperativas">
+
+        <p>As cooperativas ao redor do mundo estão liderando diversas iniciativas voltadas para a sustentabilidade, promovendo práticas ecológicas e impactando diretamente as comunidades. Veja como a Cooperativa VIVA e outras iniciativas estão fazendo a diferença...</p>
+
+        <p><a href="postagem1.html">[Conteúdo detalhado do artigo]</a></p>
+
+        <!-- Compartilhamento e Artigos Relacionados -->
+        <div class="social-share my-4">
+            <h4>Compartilhe este artigo:</h4>
+            <a href="https://www.facebook.com" class="btn btn-outline-primary">Facebook</a>
+            <a href="https://www.twitter.com" class="btn btn-outline-primary">Twitter</a>
+            <a href="https://www.linkedin.com" class="btn btn-outline-primary">LinkedIn</a>
+        </div>
+
+        <!-- Artigos Relacionados -->
+        <div class="artigos-relacionados my-5">
+            <h4>Artigos Relacionados</h4>
+            <ul>
+                <li><a href="postagem2.html">Histórias de Sucesso: Membros que Cresceram com a VIVA</a></li>
+                <li><a href="postagem3.html">Dicas para Gerenciar Suas Finanças Como Cooperado</a></li>
+            </ul>
+        </div>
+
+        <!-- Seção de Comentários -->
+        <div class="comentarios my-5">
+            <h4>Deixe um Comentário</h4>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentário</label>
+                    <textarea class="form-control" id="comentario" name="comentario" rows="5" placeholder="Escreva seu comentário..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Comentário</button>
+            </form>
+        </div>
+    </div>
 </section>
 
 <!-- Footer -->
 <footer class="footer py-4">
-  <div class="container text-center">
-    <p>&copy; 2024 Cooperativa VIVA. Todos os direitos reservados.</p>
-    <p><a href="mailto:contato@cooperativaviva.com">contato@cooperativaviva.com</a> | (00) 1234-5678</p>
-  </div>
+    <div class="container text-center">
+        <p>&copy; 2024 Cooperativa VIVA. Todos os direitos reservados.</p>
+        <p><a href="mailto:contato@cooperativaviva.com">contato@cooperativaviva.com</a> | (00) 1234-5678</p>
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
